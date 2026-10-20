@@ -1,18 +1,26 @@
 # Sean Lim
 
-**Software Engineer**
+**Software Engineer · Product Engineering & AI Systems**
 
-Full-stack development / AI systems / Platform engineering
+As project PM, I managed product planning and minting operations for **500,000 NFT mints**.
 
-## Technology stack
+I build and operate full-stack web applications and AI systems, connecting product requirements with architecture, data modeling, and delivery.
 
-| Area | Technologies |
+My engineering work separates temporary execution state from durable user records, with regression coverage for authorization boundaries and database failure paths.
+
+## Primary stack
+
+| Area | Stack |
 | :--- | :--- |
-| Languages | TypeScript, JavaScript, Python, SQL, PHP |
-| Frontend | React, Next.js, Tailwind CSS |
-| Backend | Node.js, Express, Laravel |
-| Databases | PostgreSQL, Neon, Redis, Upstash, Drizzle ORM |
-| AI & Integration | Anthropic API, Model Context Protocol (MCP), Server-Sent Events (SSE) |
-| Testing & Quality | Vitest, Playwright, ESLint, Biome |
-| Infrastructure | Vercel, Vercel Functions, Linux, Apache |
-| Development tools | Git, Claude Code, Codex |
+| Application | TypeScript, React, Next.js, Node.js, Tailwind CSS |
+| Data & persistence | PostgreSQL / Neon, Drizzle ORM |
+| Cache & coordination | Redis / Upstash |
+| AI integration | Anthropic API, MCP |
+| Verification | Vitest (unit & integration), Playwright (E2E), Biome |
+| Deployment | Vercel |
+
+## Additional experience
+
+- **Legacy maintenance:** PHP, Laravel, Apache
+- **Automation:** Python
+- **Development workflow:** Git, Claude Code, Codex
