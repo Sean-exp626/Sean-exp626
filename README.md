@@ -17,10 +17,10 @@ In an LLM-backed app, I store run state in Redis with a 24-hour TTL and keep dur
 | Cache & coordination | Redis / Upstash |
 | LLM integration | Anthropic API, MCP |
 | Verification | Vitest (unit & integration), Playwright (E2E), Biome |
-| Deployment | Vercel |
+| Delivery & operations | Vercel preview/production deployments, environment-specific secrets, migration safeguards, post-deploy health checks |
 
 ## Additional experience
 
 - **Legacy maintenance:** PHP, Laravel, Apache
 - **Automation:** Python
-- **Development workflow:** Git, Claude Code, Codex
+- **Workflow:** Claude Code and Codex for implementation; diff review and Vitest/Playwright regression checks before release.
