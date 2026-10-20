@@ -1,12 +1,12 @@
 # Sean Lim
 
-**Software Engineer · Product Engineering & AI Systems**
+**Software Engineer · Product Engineering & LLM-integrated Apps**
 
-As project PM, I managed product planning and minting operations for **500,000 NFT mints**.
+I build and run full-stack web products with Next.js and TypeScript, from data modeling and LLM integration to deployment and production support.
 
-I build and operate full-stack web applications and AI systems, connecting product requirements with architecture, data modeling, and delivery.
+I also led product planning and minting operations as project PM for **500,000 NFT mints**.
 
-My engineering work separates temporary execution state from durable user records, with regression coverage for authorization boundaries and database failure paths.
+In an LLM-backed app, I store run state in Redis with a 24-hour TTL and keep durable user history in Postgres. My Vitest regression tests cover cross-user access, expired sessions, and stalled database connections.
 
 ## Primary stack
 
@@ -15,7 +15,7 @@ My engineering work separates temporary execution state from durable user record
 | Application | TypeScript, React, Next.js, Node.js, Tailwind CSS |
 | Data & persistence | PostgreSQL / Neon, Drizzle ORM |
 | Cache & coordination | Redis / Upstash |
-| AI integration | Anthropic API, MCP |
+| LLM integration | Anthropic API, MCP |
 | Verification | Vitest (unit & integration), Playwright (E2E), Biome |
 | Deployment | Vercel |
 
